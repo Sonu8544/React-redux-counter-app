@@ -1,11 +1,16 @@
 import './App.css'
+import Counter from './counter/Counter'
 
 function App() {
 
   return (
-    <h1 class="text-3xl font-bold text-center text-blue-500 mt-20">
-      Hello world!
-    </h1>
+    <>
+      <h1 className="text-3xl font-bold text-center">
+        Wellness Extract!
+      </h1>
+      <Counter />
+    </>
+
   )
 }
 
